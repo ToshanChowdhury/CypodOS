@@ -1,0 +1,18 @@
+print("Font Applier")
+print("")
+print("1. Comic Sans MS")
+print("2. Calibri")
+print("3. Segoe UI")
+print("4. ALGERIAN")
+print("5. Arial")
+print("6. Cascadia Code")
+print("7. DengXian")
+print("8. Consolas")
+print("9. Source Sans Pro")
+print("10. Times New Roman")
+print("11. Tahoma")
+print("12. Default")
+get_font = input("Choose font when options appear, please write the font and do not write the ranking:")
+
+with open("customize/costumfont.fnt", "w") as f:
+    f.write(get_font)
